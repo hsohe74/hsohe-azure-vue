@@ -8,7 +8,8 @@ on:
     branches:
       - main
   workflow_dispatch:
-
+env:
+  AZURE_WEBAPP_PACKAGE_PATH:  'build'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
