@@ -42,4 +42,4 @@ jobs:
         app-name: 'hsohe-front005'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_0d0da5b879b44d11ba8bf831624fdec5 }}
-        package: .
+        package: dist
